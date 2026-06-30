@@ -167,7 +167,7 @@ const Index = () => {
 
             <blockquote className="border-l-2 border-gold pl-6 mt-2">
               <p className="font-display text-2xl font-light italic leading-snug text-foreground">
-                «Фотография — это не то, что вы снимаете.<br />Это то, что вы чувствуете в момент нажатия затвора.»
+                «Я влюблён в фотографию за то, что она останавливает время —<br />и делает вечным то, что длилось лишь миг.»
               </p>
             </blockquote>
 
