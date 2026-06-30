@@ -5,7 +5,7 @@ const HERO_IMG = 'https://cdn.poehali.dev/projects/b71d0ec2-bcfb-4b2e-ab15-a89a0
 const WEDDING_IMG = 'https://cdn.poehali.dev/projects/b71d0ec2-bcfb-4b2e-ab15-a89a0d46888e/files/6ec997b5-c911-4325-b614-962c21ad1d1e.jpg';
 const LANDSCAPE_IMG = 'https://cdn.poehali.dev/projects/b71d0ec2-bcfb-4b2e-ab15-a89a0d46888e/files/2b2235b6-7188-4022-b206-f757e574f39a.jpg';
 
-type Category = 'Все' | 'Портрет' | 'Свадьба' | 'Пейзаж';
+type Category = 'Все' | 'Репортаж' | 'Портрет' | 'Прогулки';
 
 interface Work {
   id: number;
@@ -15,20 +15,20 @@ interface Work {
 }
 
 const works: Work[] = [
-  { id: 1, src: HERO_IMG, title: 'Золотой свет', category: 'Портрет' },
-  { id: 2, src: WEDDING_IMG, title: 'Вечная клятва', category: 'Свадьба' },
-  { id: 3, src: LANDSCAPE_IMG, title: 'Сумерки', category: 'Пейзаж' },
-  { id: 4, src: HERO_IMG, title: 'Тишина', category: 'Портрет' },
-  { id: 5, src: WEDDING_IMG, title: 'Первый танец', category: 'Свадьба' },
-  { id: 6, src: LANDSCAPE_IMG, title: 'Горизонт', category: 'Пейзаж' },
+  { id: 1, src: HERO_IMG, title: 'Международный форум', category: 'Репортаж' },
+  { id: 2, src: WEDDING_IMG, title: 'Важное событие', category: 'Репортаж' },
+  { id: 3, src: LANDSCAPE_IMG, title: 'Городская прогулка', category: 'Прогулки' },
+  { id: 4, src: HERO_IMG, title: 'Художественный портрет', category: 'Портрет' },
+  { id: 5, src: LANDSCAPE_IMG, title: 'Осенняя прогулка', category: 'Прогулки' },
+  { id: 6, src: WEDDING_IMG, title: 'Авторский портрет', category: 'Портрет' },
 ];
 
-const categories: Category[] = ['Все', 'Портрет', 'Свадьба', 'Пейзаж'];
+const categories: Category[] = ['Все', 'Репортаж', 'Портрет', 'Прогулки'];
 
 const services = [
-  { icon: 'Camera', title: 'Портретная съёмка', desc: 'Студийная и выездная съёмка, раскрывающая характер.', price: 'от 25 000 ₽' },
-  { icon: 'Heart', title: 'Свадебный день', desc: 'Полное сопровождение вашего самого важного дня.', price: 'от 80 000 ₽' },
-  { icon: 'Mountain', title: 'Художественная съёмка', desc: 'Авторские концепции для журналов и брендов.', price: 'от 40 000 ₽' },
+  { icon: 'Users', title: 'Репортаж с форумов и событий', desc: 'Профессиональная репортажная съёмка международных и российских форумов, конференций и значимых событий из жизни человека.', price: 'по запросу' },
+  { icon: 'MapPin', title: 'Фотопрогулки', desc: 'Живые, непостановочные кадры в городской среде или на природе — история, рассказанная через движение и атмосферу.', price: 'по запросу' },
+  { icon: 'Star', title: 'Художественный портрет', desc: 'Авторская обработка и профессиональная ретушь. Каждый портрет — это уникальный образ, созданный совместно с вами.', price: 'по запросу' },
 ];
 
 const Index = () => {
@@ -46,7 +46,7 @@ const Index = () => {
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-40 backdrop-blur-md bg-background/70 border-b border-border/40">
         <div className="container flex items-center justify-between h-20">
-          <a href="#home" className="font-display text-2xl tracking-luxe text-gold">ЭЛАРА</a>
+          <a href="#home" className="font-display text-2xl tracking-luxe text-gold">ВАЛЕРИЙ</a>
           <nav className="hidden md:flex items-center gap-10 text-sm tracking-widest uppercase text-muted-foreground">
             <a href="#portfolio" className="hover:text-gold transition-colors">Портфолио</a>
             <a href="#services" className="hover:text-gold transition-colors">Услуги</a>
@@ -67,13 +67,13 @@ const Index = () => {
         </div>
         <div className="relative z-10 text-center px-6">
           <p className="animate-fade-up text-gold tracking-luxe uppercase text-xs mb-6" style={{ animationDelay: '0.1s' }}>
-            Художественная фотография
+            Репортажная и художественная фотография
           </p>
           <h1 className="animate-fade-up font-display text-6xl md:text-8xl lg:text-9xl leading-none font-light mb-8" style={{ animationDelay: '0.3s' }}>
-            Свет, который<br /><span className="italic text-gold">остаётся</span>
+            Момент, который<br /><span className="italic text-gold">живёт</span>
           </h1>
           <p className="animate-fade-up max-w-md mx-auto text-muted-foreground mb-10" style={{ animationDelay: '0.5s' }}>
-            Я создаю кадры, в которых живут эмоции — портреты, свадьбы и художественные истории.
+            Репортаж с форумов и событий, фотопрогулки, художественные портреты с авторской обработкой и профессиональной ретушью.
           </p>
           <a href="#portfolio" className="animate-fade-up inline-flex items-center gap-3 text-sm tracking-widest uppercase border-b border-gold pb-1 text-gold hover:gap-5 transition-all" style={{ animationDelay: '0.7s' }}>
             Смотреть работы <Icon name="ArrowDown" size={16} />
@@ -206,7 +206,7 @@ const Index = () => {
       </section>
 
       <footer className="py-10 text-center text-xs tracking-widest uppercase text-muted-foreground border-t border-border/40">
-        © 2026 ЭЛАРА — Художественная фотография
+        © 2026 Валерий — Репортажная и художественная фотография
       </footer>
 
       {/* LIGHTBOX */}
