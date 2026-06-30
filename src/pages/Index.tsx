@@ -62,7 +62,7 @@ const Index = () => {
       {/* HERO */}
       <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={HERO_IMG} alt="Hero" className="w-full h-full object-cover slow-zoom" />
+          <img src="https://cdn.poehali.dev/projects/b71d0ec2-bcfb-4b2e-ab15-a89a0d46888e/bucket/a6dafec7-90cb-4a1f-8ff1-41ead9060f52.png" alt="Hero" className="w-full h-full object-cover object-top slow-zoom" />
           <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/40 to-background" />
         </div>
         <div className="relative z-10 text-center px-6">
