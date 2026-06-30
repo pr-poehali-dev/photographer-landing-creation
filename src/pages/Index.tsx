@@ -164,6 +164,12 @@ const Index = () => {
               Также создаю художественные портреты с авторской обработкой и профессиональной ретушью.
             </p>
 
+            <blockquote className="border-l-2 border-gold pl-6 mt-2">
+              <p className="font-display text-2xl font-light italic leading-snug text-foreground">
+                «Фотография — это не то, что вы снимаете.<br />Это то, что вы чувствуете в момент нажатия затвора.»
+              </p>
+            </blockquote>
+
           </div>
         </div>
       </section>
