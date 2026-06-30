@@ -163,20 +163,7 @@ const Index = () => {
             <p className="text-muted-foreground leading-relaxed mb-10">
               Также создаю художественные портреты с авторской обработкой и профессиональной ретушью.
             </p>
-            <div className="flex gap-12">
-              <div>
-                <p className="font-display text-5xl text-gold">10+</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">лет опыта</p>
-              </div>
-              <div>
-                <p className="font-display text-5xl text-gold">350</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">проектов</p>
-              </div>
-              <div>
-                <p className="font-display text-5xl text-gold">18</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">наград</p>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
