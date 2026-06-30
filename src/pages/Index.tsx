@@ -46,7 +46,7 @@ const Index = () => {
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-40 backdrop-blur-md bg-background/70 border-b border-border/40">
         <div className="container flex items-center justify-between h-20">
-          <a href="#home" className="font-display text-2xl tracking-luxe text-gold">ВАЛЕРИЙ</a>
+          <a href="#home" className="font-display text-2xl tracking-luxe text-gold">VALERY</a>
           <nav className="hidden md:flex items-center gap-10 text-sm tracking-widest uppercase text-muted-foreground">
             <a href="#portfolio" className="hover:text-gold transition-colors">Портфолио</a>
             <a href="#services" className="hover:text-gold transition-colors">Услуги</a>
