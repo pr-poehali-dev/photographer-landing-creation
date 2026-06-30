@@ -46,7 +46,7 @@ const Index = () => {
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-40 backdrop-blur-md bg-background/70 border-b border-border/40">
         <div className="container flex items-center justify-between h-20">
-          <a href="#home" className="font-display text-2xl tracking-luxe text-gold">ELARA</a>
+          <a href="#home" className="font-display text-2xl tracking-luxe text-gold">ЭЛАРА</a>
           <nav className="hidden md:flex items-center gap-10 text-sm tracking-widest uppercase text-muted-foreground">
             <a href="#portfolio" className="hover:text-gold transition-colors">Портфолио</a>
             <a href="#services" className="hover:text-gold transition-colors">Услуги</a>
@@ -67,7 +67,7 @@ const Index = () => {
         </div>
         <div className="relative z-10 text-center px-6">
           <p className="animate-fade-up text-gold tracking-luxe uppercase text-xs mb-6" style={{ animationDelay: '0.1s' }}>
-            Fine Art Photography
+            Художественная фотография
           </p>
           <h1 className="animate-fade-up font-display text-6xl md:text-8xl lg:text-9xl leading-none font-light mb-8" style={{ animationDelay: '0.3s' }}>
             Свет, который<br /><span className="italic text-gold">остаётся</span>
@@ -205,7 +205,7 @@ const Index = () => {
       </section>
 
       <footer className="py-10 text-center text-xs tracking-widest uppercase text-muted-foreground border-t border-border/40">
-        © 2026 ELARA — Fine Art Photography
+        © 2026 ЭЛАРА — Художественная фотография
       </footer>
 
       {/* LIGHTBOX */}
