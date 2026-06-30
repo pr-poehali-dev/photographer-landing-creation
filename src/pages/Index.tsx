@@ -148,7 +148,7 @@ const Index = () => {
       <section id="about" className="py-28 container">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="relative aspect-[4/5] overflow-hidden">
-            <img src={WEDDING_IMG} alt="Элара" className="w-full h-full object-cover" />
+            <img src="https://cdn.poehali.dev/projects/b71d0ec2-bcfb-4b2e-ab15-a89a0d46888e/bucket/a6dafec7-90cb-4a1f-8ff1-41ead9060f52.png" alt="Валерий" className="w-full h-full object-cover" />
             <div className="absolute -bottom-px -right-px w-32 h-32 border-r-2 border-b-2 border-gold" />
           </div>
           <div>
